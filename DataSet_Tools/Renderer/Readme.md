@@ -15,8 +15,8 @@ The corresponding files for Linux and MacOS can be found in:
 If blender / blenderplayer only exist in .tar.bz2 please unpack them in their corresponding directory.
 GIT has a limitation on a max file size of 100MB.
 
-> linux: unpack ./p2m_blender/blender_linux/blender.tar.bz2
-> macOS: unpack p2m_blender/blender_macos/blenderplayer.tar.bz2, p2m_blender/blender_macos/blender.app.tar.bz2
+> linux: ./p2m_blender/blender_linux/blender.tar.bz2  
+> macOS: ./p2m_blender/blender_macos/blenderplayer.tar.bz2, ./p2m_blender/blender_macos/blender.app.tar.bz2
 
 The different render scripts are found in *p2m_blender*.  
 The currently active version is V13, older versions will be removed in future.
