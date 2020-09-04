@@ -1,0 +1,6 @@
+Start training, lr =  0.000010
+Epoch 1, loss 9.326232
+Epoch 2, loss 6.324042
+Epoch 3, loss 5.200199
+Epoch 4, loss 4.442707
+Epoch 5, loss 3.934191

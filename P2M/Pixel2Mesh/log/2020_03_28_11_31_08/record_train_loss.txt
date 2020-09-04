@@ -1,0 +1,1 @@
+Start training, lr =  0.000010

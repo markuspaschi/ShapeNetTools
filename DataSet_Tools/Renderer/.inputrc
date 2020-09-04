@@ -1,0 +1,29 @@
+################################################################################
+## ~/.inputrc
+##
+## Control the behaviour of the readline library used e.g.
+## by the bash in the interactive mode for line editing.
+##
+################################################################################
+#
+# The bell style used e.g. on error or tab completion, possible values
+# are `none', `visible', and `audible' the ringing the bell.
+#
+#set bell-style none
+
+#
+# If set to on, words which have more than one possible completion without
+# any possible partial completion cause the matches to be listed immediately
+# instead of ringing the bell.
+#
+#set show-all-if-unmodified on
+
+#
+# If set to on, words which have more than one possible completion cause the
+# matches to be listed immediately instead of ringing the bell.
+#
+#set show-all-if-ambiguous on
+
+#
+# end
+#

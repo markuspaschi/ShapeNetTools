@@ -1,0 +1,352 @@
+hdf5 is not supported on this machine (please install/reinstall h5py for optimal experience)
+x0 Tensor("gcn/Conv2D_2/Relu:0", shape=(1, 112, 112, 32), dtype=float32)
+x0 ['OVERLOADABLE_OPERATORS', 'W', '__abs__', '__add__', '__and__', '__array_priority__', '__bool__', '__class__', '__delattr__', '__dict__', '__div__', '__doc__', '__eq__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__invert__', '__iter__', '__le__', '__lt__', '__matmul__', '__mod__', '__module__', '__mul__', '__neg__', '__new__', '__nonzero__', '__or__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmatmul__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__weakref__', '__xor__', '_add_consumer', '_as_node_def_input', '_as_tf_output', '_consumers', '_dtype', '_handle_data', '_op', '_override_operator', '_shape', '_shape_as_list', '_value_index', 'b', 'consumers', 'device', 'dtype', 'eval', 'get_shape', 'graph', 'name', 'op', 'scope', 'set_shape', 'shape', 'value_index']
+/home/mapa3789/anaconda2/envs/py2tf1.3/lib/python2.7/site-packages/tensorflow/python/ops/gradients_impl.py:95: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2020-02-27 14:47:23.137675: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2020-02-27 14:47:23.137692: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2020-02-27 14:47:23.137696: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2020-02-27 14:47:23.137698: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2020-02-27 14:47:23.137701: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+/home/mapa3789/anaconda2/envs/py2tf1.3/lib/python2.7/site-packages/skimage/transform/_warps.py:105: UserWarning: The default mode, 'constant', will be changed to 'reflect' in skimage 0.15.
+  warn("The default mode, 'constant', will be changed to 'reflect' in "
+/home/mapa3789/anaconda2/envs/py2tf1.3/lib/python2.7/site-packages/skimage/transform/_warps.py:110: UserWarning: Anti-aliasing will be enabled by default in skimage 0.15 to avoid aliasing artifacts when down-sampling images.
+  warn("Anti-aliasing will be enabled by default in skimage 0.15 to "
+2020-02-27 14:47:23.186111: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-02-27 14:47:23.186704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.93GiB
+Free memory: 11.77GiB
+2020-02-27 14:47:23.186714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2020-02-27 14:47:23.186718: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2020-02-27 14:47:23.186724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+Saving logs into 2020_02_27_14_47_29
+Total Epochs: 5, Total Iterations per Epoch 4208
+Epoch 1, Iteration 128
+Mean loss = 1741.586182, iter loss = 211.597183, 64
+Epoch 1, Iteration 256
+Mean loss = 916.280762, iter loss = 20.618736, 64
+Epoch 1, Iteration 384
+Mean loss = 624.141663, iter loss = 27.070387, 64
+Epoch 1, Iteration 512
+Mean loss = 477.210602, iter loss = 30.327602, 64
+Epoch 1, Iteration 640
+Mean loss = 390.078918, iter loss = 29.776379, 64
+Epoch 1, Iteration 768
+Mean loss = 331.452972, iter loss = 38.070938, 64
+Epoch 1, Iteration 896
+Mean loss = 289.400208, iter loss = 27.560425, 64
+Epoch 1, Iteration 1024
+Mean loss = 257.873596, iter loss = 25.774632, 64
+Epoch 1, Iteration 1152
+Mean loss = 233.181992, iter loss = 28.450380, 64
+Epoch 1, Iteration 1280
+Mean loss = 213.199341, iter loss = 30.869493, 64
+Epoch 1, Iteration 1408
+Mean loss = 197.076370, iter loss = 27.319117, 64
+Epoch 1, Iteration 1536
+Mean loss = 183.575195, iter loss = 34.919785, 64
+Epoch 1, Iteration 1664
+Mean loss = 172.431778, iter loss = 54.661419, 64
+Epoch 1, Iteration 1792
+Mean loss = 162.386673, iter loss = 40.561966, 64
+Epoch 1, Iteration 1920
+Mean loss = 153.818253, iter loss = 37.188316, 64
+Epoch 1, Iteration 2048
+Mean loss = 146.330536, iter loss = 20.848721, 64
+Epoch 1, Iteration 2176
+Mean loss = 139.685333, iter loss = 40.306595, 64
+Epoch 1, Iteration 2304
+Mean loss = 133.960770, iter loss = 56.363754, 64
+Epoch 1, Iteration 2432
+Mean loss = 128.693466, iter loss = 29.405293, 64
+Epoch 1, Iteration 2560
+Mean loss = 123.840012, iter loss = 21.675886, 64
+Epoch 1, Iteration 2688
+Mean loss = 119.724274, iter loss = 26.656891, 64
+Epoch 1, Iteration 2816
+Mean loss = 115.775368, iter loss = 25.398399, 64
+Epoch 1, Iteration 2944
+Mean loss = 112.089943, iter loss = 17.854773, 64
+Epoch 1, Iteration 3072
+Mean loss = 108.803894, iter loss = 20.531431, 64
+Epoch 1, Iteration 3200
+Mean loss = 105.797600, iter loss = 46.412144, 64
+Epoch 1, Iteration 3328
+Mean loss = 102.850883, iter loss = 20.586626, 64
+Epoch 1, Iteration 3456
+Mean loss = 100.295769, iter loss = 33.010399, 64
+Epoch 1, Iteration 3584
+Mean loss = 97.905128, iter loss = 26.346983, 64
+Epoch 1, Iteration 3712
+Mean loss = 95.666794, iter loss = 28.922586, 64
+Epoch 1, Iteration 3840
+Mean loss = 93.568092, iter loss = 21.576591, 64
+Epoch 1, Iteration 3968
+Mean loss = 91.603737, iter loss = 25.427963, 64
+Epoch 1, Iteration 4096
+Mean loss = 89.794418, iter loss = 26.853296, 64
+Model saved in file: Data/checkpoint/2020_02_27_14_47_29/gcn.ckpt
+Epoch 2, Iteration 128
+Mean loss = 36.119072, iter loss = 28.113569, 64
+Epoch 2, Iteration 256
+Mean loss = 32.915771, iter loss = 27.295927, 64
+Epoch 2, Iteration 384
+Mean loss = 32.050846, iter loss = 22.799152, 64
+Epoch 2, Iteration 512
+Mean loss = 32.404140, iter loss = 60.599487, 64
+Epoch 2, Iteration 640
+Mean loss = 32.016167, iter loss = 35.142254, 64
+Epoch 2, Iteration 768
+Mean loss = 32.233120, iter loss = 24.383654, 64
+Epoch 2, Iteration 896
+Mean loss = 31.918959, iter loss = 32.595360, 64
+Epoch 2, Iteration 1024
+Mean loss = 32.416725, iter loss = 32.321278, 64
+Epoch 2, Iteration 1152
+Mean loss = 32.428047, iter loss = 36.493202, 64
+Epoch 2, Iteration 1280
+Mean loss = 32.826134, iter loss = 32.869160, 64
+Epoch 2, Iteration 1408
+Mean loss = 33.000256, iter loss = 57.900360, 64
+Epoch 2, Iteration 1536
+Mean loss = 32.988583, iter loss = 52.793556, 64
+Epoch 2, Iteration 1664
+Mean loss = 32.976673, iter loss = 28.511335, 64
+Epoch 2, Iteration 1792
+Mean loss = 32.879864, iter loss = 23.852716, 64
+Epoch 2, Iteration 1920
+Mean loss = 32.703342, iter loss = 21.955875, 64
+Epoch 2, Iteration 2048
+Mean loss = 32.806053, iter loss = 22.238392, 64
+Epoch 2, Iteration 2176
+Mean loss = 32.763584, iter loss = 21.893255, 64
+Epoch 2, Iteration 2304
+Mean loss = 32.545742, iter loss = 23.206501, 64
+Epoch 2, Iteration 2432
+Mean loss = 32.705734, iter loss = 74.885010, 64
+Epoch 2, Iteration 2560
+Mean loss = 32.665504, iter loss = 34.136158, 64
+Epoch 2, Iteration 2688
+Mean loss = 32.472919, iter loss = 21.855406, 64
+Epoch 2, Iteration 2816
+Mean loss = 32.425797, iter loss = 20.126408, 64
+Epoch 2, Iteration 2944
+Mean loss = 32.325127, iter loss = 27.036180, 64
+Epoch 2, Iteration 3072
+Mean loss = 32.246414, iter loss = 46.927143, 64
+Epoch 2, Iteration 3200
+Mean loss = 32.181007, iter loss = 19.033985, 64
+Epoch 2, Iteration 3328
+Mean loss = 32.087990, iter loss = 52.686226, 64
+Epoch 2, Iteration 3456
+Mean loss = 32.071079, iter loss = 32.195061, 64
+Epoch 2, Iteration 3584
+Mean loss = 31.939026, iter loss = 122.964920, 64
+Epoch 2, Iteration 3712
+Mean loss = 31.854952, iter loss = 28.340275, 64
+Epoch 2, Iteration 3840
+Mean loss = 31.695362, iter loss = 31.017492, 64
+Epoch 2, Iteration 3968
+Mean loss = 31.487301, iter loss = 75.650810, 64
+Epoch 2, Iteration 4096
+Mean loss = 31.381599, iter loss = 25.175465, 64
+Model saved in file: Data/checkpoint/2020_02_27_14_47_29/gcn.ckpt
+Epoch 3, Iteration 128
+Mean loss = 31.840136, iter loss = 26.090067, 64
+Epoch 3, Iteration 256
+Mean loss = 30.273933, iter loss = 21.483259, 64
+Epoch 3, Iteration 384
+Mean loss = 29.984324, iter loss = 63.025925, 64
+Epoch 3, Iteration 512
+Mean loss = 29.449295, iter loss = 45.092812, 64
+Epoch 3, Iteration 640
+Mean loss = 29.798447, iter loss = 38.527103, 64
+Epoch 3, Iteration 768
+Mean loss = 29.395927, iter loss = 25.767897, 64
+Epoch 3, Iteration 896
+Mean loss = 29.130861, iter loss = 15.088295, 64
+Epoch 3, Iteration 1024
+Mean loss = 29.639343, iter loss = 25.679995, 64
+Epoch 3, Iteration 1152
+Mean loss = 29.155840, iter loss = 29.303802, 64
+Epoch 3, Iteration 1280
+Mean loss = 28.874115, iter loss = 35.468307, 64
+Epoch 3, Iteration 1408
+Mean loss = 28.762251, iter loss = 32.248699, 64
+Epoch 3, Iteration 1536
+Mean loss = 28.464874, iter loss = 23.044930, 64
+Epoch 3, Iteration 1664
+Mean loss = 28.411650, iter loss = 28.940928, 64
+Epoch 3, Iteration 1792
+Mean loss = 28.306595, iter loss = 17.074106, 64
+Epoch 3, Iteration 1920
+Mean loss = 28.051170, iter loss = 18.722134, 64
+Epoch 3, Iteration 2048
+Mean loss = 27.994133, iter loss = 21.303997, 64
+Epoch 3, Iteration 2176
+Mean loss = 27.951416, iter loss = 16.596243, 64
+Epoch 3, Iteration 2304
+Mean loss = 27.825871, iter loss = 27.471004, 64
+Epoch 3, Iteration 2432
+Mean loss = 27.775484, iter loss = 19.838577, 64
+Epoch 3, Iteration 2560
+Mean loss = 27.493750, iter loss = 23.577265, 64
+Epoch 3, Iteration 2688
+Mean loss = 27.392654, iter loss = 18.177790, 64
+Epoch 3, Iteration 2816
+Mean loss = 27.259783, iter loss = 19.747725, 64
+Epoch 3, Iteration 2944
+Mean loss = 27.215944, iter loss = 25.185183, 64
+Epoch 3, Iteration 3072
+Mean loss = 27.077637, iter loss = 40.730579, 64
+Epoch 3, Iteration 3200
+Mean loss = 27.120743, iter loss = 19.817396, 64
+Epoch 3, Iteration 3328
+Mean loss = 27.119883, iter loss = 12.472709, 64
+Epoch 3, Iteration 3456
+Mean loss = 26.969761, iter loss = 17.395239, 64
+Epoch 3, Iteration 3584
+Mean loss = 26.793537, iter loss = 17.387501, 64
+Epoch 3, Iteration 3712
+Mean loss = 26.627914, iter loss = 16.247383, 64
+Epoch 3, Iteration 3840
+Mean loss = 26.472664, iter loss = 19.195845, 64
+Epoch 3, Iteration 3968
+Mean loss = 26.340567, iter loss = 21.128027, 64
+Epoch 3, Iteration 4096
+Mean loss = 26.189342, iter loss = 22.519983, 64
+Model saved in file: Data/checkpoint/2020_02_27_14_47_29/gcn.ckpt
+Epoch 4, Iteration 128
+Mean loss = 24.451710, iter loss = 18.058836, 64
+Epoch 4, Iteration 256
+Mean loss = 22.927715, iter loss = 15.436364, 64
+Epoch 4, Iteration 384
+Mean loss = 23.367178, iter loss = 23.905153, 64
+Epoch 4, Iteration 512
+Mean loss = 23.913952, iter loss = 19.571035, 64
+Epoch 4, Iteration 640
+Mean loss = 23.300732, iter loss = 14.427436, 64
+Epoch 4, Iteration 768
+Mean loss = 22.643234, iter loss = 17.487276, 64
+Epoch 4, Iteration 896
+Mean loss = 21.997408, iter loss = 61.559265, 64
+Epoch 4, Iteration 1024
+Mean loss = 21.796877, iter loss = 14.604923, 64
+Epoch 4, Iteration 1152
+Mean loss = 21.673697, iter loss = 88.768486, 64
+Epoch 4, Iteration 1280
+Mean loss = 21.499651, iter loss = 15.997472, 64
+Epoch 4, Iteration 1408
+Mean loss = 21.242743, iter loss = 48.869572, 64
+Epoch 4, Iteration 1536
+Mean loss = 21.234585, iter loss = 20.218918, 64
+Epoch 4, Iteration 1664
+Mean loss = 21.051270, iter loss = 21.000130, 64
+Epoch 4, Iteration 1792
+Mean loss = 20.968252, iter loss = 21.761372, 64
+Epoch 4, Iteration 1920
+Mean loss = 20.813623, iter loss = 13.986216, 64
+Epoch 4, Iteration 2048
+Mean loss = 20.688494, iter loss = 19.812151, 64
+Epoch 4, Iteration 2176
+Mean loss = 20.600672, iter loss = 13.474059, 64
+Epoch 4, Iteration 2304
+Mean loss = 20.516060, iter loss = 17.016800, 64
+Epoch 4, Iteration 2432
+Mean loss = 20.408216, iter loss = 15.984303, 64
+Epoch 4, Iteration 2560
+Mean loss = 20.431957, iter loss = 16.408968, 64
+Epoch 4, Iteration 2688
+Mean loss = 20.424618, iter loss = 18.687223, 64
+Epoch 4, Iteration 2816
+Mean loss = 20.410421, iter loss = 13.698688, 64
+Epoch 4, Iteration 2944
+Mean loss = 20.179783, iter loss = 11.391107, 64
+Epoch 4, Iteration 3072
+Mean loss = 20.097754, iter loss = 13.578859, 64
+Epoch 4, Iteration 3200
+Mean loss = 19.992420, iter loss = 20.982731, 64
+Epoch 4, Iteration 3328
+Mean loss = 19.816763, iter loss = 9.582721, 64
+Epoch 4, Iteration 3456
+Mean loss = 19.698812, iter loss = 11.907597, 64
+Epoch 4, Iteration 3584
+Mean loss = 19.666094, iter loss = 18.354210, 64
+Epoch 4, Iteration 3712
+Mean loss = 19.644472, iter loss = 7.734528, 64
+Epoch 4, Iteration 3840
+Mean loss = 19.546467, iter loss = 10.595478, 64
+Epoch 4, Iteration 3968
+Mean loss = 19.466211, iter loss = 11.431827, 64
+Epoch 4, Iteration 4096
+Mean loss = 19.400536, iter loss = 24.295376, 64
+Model saved in file: Data/checkpoint/2020_02_27_14_47_29/gcn.ckpt
+Epoch 5, Iteration 128
+Mean loss = 14.721912, iter loss = 10.503710, 64
+Epoch 5, Iteration 256
+Mean loss = 15.563571, iter loss = 10.823446, 64
+Epoch 5, Iteration 384
+Mean loss = 16.161516, iter loss = 9.537921, 64
+Epoch 5, Iteration 512
+Mean loss = 15.591256, iter loss = 12.640981, 64
+Epoch 5, Iteration 640
+Mean loss = 15.765373, iter loss = 20.893759, 64
+Epoch 5, Iteration 768
+Mean loss = 15.821727, iter loss = 13.436871, 64
+Epoch 5, Iteration 896
+Mean loss = 15.626053, iter loss = 17.302193, 64
+Epoch 5, Iteration 1024
+Mean loss = 15.447429, iter loss = 11.454584, 64
+Epoch 5, Iteration 1152
+Mean loss = 15.259315, iter loss = 12.406734, 64
+Epoch 5, Iteration 1280
+Mean loss = 15.176984, iter loss = 13.365900, 64
+Epoch 5, Iteration 1408
+Mean loss = 15.554801, iter loss = 14.097642, 64
+Epoch 5, Iteration 1536
+Mean loss = 15.648442, iter loss = 11.970016, 64
+Epoch 5, Iteration 1664
+Mean loss = 15.678814, iter loss = 7.104796, 64
+Epoch 5, Iteration 1792
+Mean loss = 15.710847, iter loss = 33.294239, 64
+Epoch 5, Iteration 1920
+Mean loss = 15.745021, iter loss = 12.686337, 64
+Epoch 5, Iteration 2048
+Mean loss = 15.747862, iter loss = 11.123229, 64
+Epoch 5, Iteration 2176
+Mean loss = 15.928794, iter loss = 36.938694, 64
+Epoch 5, Iteration 2304
+Mean loss = 15.897426, iter loss = 10.020935, 64
+Epoch 5, Iteration 2432
+Mean loss = 15.846092, iter loss = 34.579929, 64
+Epoch 5, Iteration 2560
+Mean loss = 15.741730, iter loss = 15.119648, 64
+Epoch 5, Iteration 2688
+Mean loss = 15.735524, iter loss = 14.526626, 64
+Epoch 5, Iteration 2816
+Mean loss = 15.689574, iter loss = 10.132498, 64
+Epoch 5, Iteration 2944
+Mean loss = 15.701188, iter loss = 12.995500, 64
+Epoch 5, Iteration 3072
+Mean loss = 15.679627, iter loss = 18.736193, 64
+Epoch 5, Iteration 3200
+Mean loss = 15.662400, iter loss = 10.921366, 64
+Epoch 5, Iteration 3328
+Mean loss = 15.584230, iter loss = 12.034551, 64
+Epoch 5, Iteration 3456
+Mean loss = 15.561220, iter loss = 14.007113, 64
+Epoch 5, Iteration 3584
+Mean loss = 15.595096, iter loss = 13.369770, 64
+Epoch 5, Iteration 3712
+Mean loss = 15.628594, iter loss = 10.864123, 64
+Epoch 5, Iteration 3840
+Mean loss = 15.601383, iter loss = 12.018067, 64
+Epoch 5, Iteration 3968
+Mean loss = 15.516310, iter loss = 6.995162, 64
+Epoch 5, Iteration 4096
+Mean loss = 15.447756, iter loss = 10.611653, 64
+Model saved in file: Data/checkpoint/2020_02_27_14_47_29/gcn.ckpt
+Training Finished!

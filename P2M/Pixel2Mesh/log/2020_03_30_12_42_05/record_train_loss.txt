@@ -1,0 +1,16 @@
+Start training, lr =  0.000010
+Epoch 1, loss 44.860119
+Epoch 2, loss 16.916346
+Epoch 3, loss 13.512404
+Epoch 4, loss 11.597021
+Epoch 5, loss 10.390616
+Epoch 6, loss 9.511834
+Epoch 7, loss 8.757035
+Epoch 8, loss 8.138042
+Epoch 9, loss 7.594186
+Epoch 10, loss 7.145952
+Epoch 11, loss 6.670960
+Epoch 12, loss 6.279552
+Epoch 13, loss 5.947297
+Epoch 14, loss 5.606721
+Epoch 15, loss 5.348397

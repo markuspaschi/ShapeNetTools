@@ -1,0 +1,10 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Per Vertex Color Function">
+  <Param tooltip="function to generate Red component. Expected Range 0-255" description="func r = " isxmlparam="0" type="RichString" name="x" value="100 * x"/>
+  <Param tooltip="function to generate Green component. Expected Range 0-255" description="func g = " isxmlparam="0" type="RichString" name="y" value="100 * y"/>
+  <Param tooltip="function to generate Blue component. Expected Range 0-255" description="func b = " isxmlparam="0" type="RichString" name="z" value="100 * z - 50"/>
+  <Param tooltip="function to generate Alpha component. Expected Range 0-255" description="func alpha = " isxmlparam="0" type="RichString" name="a" value="255"/>
+  <Param tooltip="if checked, only affects selected vertices" description="only on selection" isxmlparam="0" type="RichBool" name="onselected" value="false"/>
+ </filter>
+</FilterScript>

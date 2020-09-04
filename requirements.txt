@@ -1,0 +1,4 @@
+# define your dependencies here
+# package>=x.x.x
+# package2==x.x.x
+# package3>x.x.x

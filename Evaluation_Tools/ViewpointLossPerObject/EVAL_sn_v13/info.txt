@@ -1,0 +1,2 @@
+Evaluation with checkpoint_folder: /home/mapa3789/Master/Pixel2Mesh/outputs/2020_04_07_17_34_33/epoch_50 
+on testing data: Data/train_test_lists/HandTools_V13/test_list.txt
